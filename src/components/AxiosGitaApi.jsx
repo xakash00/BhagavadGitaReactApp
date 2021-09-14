@@ -39,7 +39,7 @@ const AxiosGitaApi = () => {
             <div className="card-header">
               <div class="card">
                 <div className="searchBox row">
-                  <div data-aos="fade-right" className="col-sm">
+                  <div data-aos="fade-up" className="col-sm">
                     <input
                       type="Number"
                       placeholder="Chapter No."
@@ -49,7 +49,7 @@ const AxiosGitaApi = () => {
                       onChange={(event) => setChapter(event.target.value)}
                     />
                   </div>
-                  <div data-aos="fade-right" className="col-sm">
+                  <div data-aos="fade-up" className="col-sm">
                     <input
                       type="Number"
                       placeholder="Shlok No."
@@ -59,7 +59,7 @@ const AxiosGitaApi = () => {
                       onChange={(event) => setShlok(event.target.value)}
                     />
                   </div>
-                  <div data-aos="fade-left" className="col-sm">
+                  <div data-aos="fade-up" className="col-sm">
                     <button className="Getbutton" onClick={handleClick}>
                       Get Shlok
                     </button>

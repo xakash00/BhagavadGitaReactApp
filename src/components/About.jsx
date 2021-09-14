@@ -18,7 +18,7 @@ const About = () => {
             >
               <div className="col-10 col-sm-8 col-lg-6">
                 <img
-                  data-aos="fade-left"
+                  data-aos="fade-up"
                   id="aboutimg2"
                   src={slide3}
                   className="d-block mx-lg-auto img-fluid"
@@ -28,7 +28,7 @@ const About = () => {
                   loading="lazy"
                 />
               </div>
-              <div data-aos="fade-right" className="col-lg-6">
+              <div data-aos="fade-up" className="col-lg-6">
                 <h1
                   style={{ color: "#28d" }}
                   className="display-5 fw-bold lh-1 mb-3"

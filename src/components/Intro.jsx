@@ -51,7 +51,7 @@ const Intro = () => {
             <div className="row mb-2">
               <div className="col-md-4">
                 <div
-                  data-aos="fade-up-right"
+                  data-aos="fade-up-up"
                   id="card"
                   className="card flex-md-row mb-4 box-shadow h-md-250"
                 >
@@ -107,7 +107,7 @@ const Intro = () => {
               </div>
               <div className="col-md-4">
                 <div
-                  data-aos="fade-up-left"
+                  data-aos="fade-up-down"
                   id="card"
                   className="card flex-md-row mb-4 box-shadow h-md-250"
                 >
@@ -158,7 +158,7 @@ const Intro = () => {
               <hr />
               <div className="row flex-lg-row-reverse align-items-center g-2">
                 <div
-                  data-aos="fade-up-left"
+                  data-aos="fade-up-down"
                   className="col-10 col-sm-8 col-lg-6"
                 >
                   <img
@@ -171,7 +171,7 @@ const Intro = () => {
                     loading="lazy"
                   />
                 </div>
-                <div data-aos="fade-right" className="col-lg-6">
+                <div data-aos="fade-up" className="col-lg-6">
                   <h1
                     style={{ color: "#28d" }}
                     className="display-5 fw-bold lh-1 mb-3"
@@ -233,7 +233,7 @@ const Intro = () => {
               </p>
               <hr />
               <h2 data-aos="zoom-out-up" style={{ color: "crimson" }} className="text-center">The Setting of the Bhagavad Gita</h2>
-              <p >
+              <p data-aos="fade-up">
                 Though the Truth is one and eternal, in different ages it
                 expresses itself in varied locales that impart their unique
                 flavor to its presentation. The teaching of the Bhagavad Gita
@@ -257,7 +257,7 @@ const Intro = () => {
                 hundred sons, called the Kauravas, the eldest of whom was
                 Duryodhan. For years, the Kauravas, led by Duryodhan, had
                 victimized their cousins, the Pandavas, and governed over the
-                kingdom of Hastinapur, which did not rightfully belong to them.
+                kingdom of Hastinapur, which did not upfully belong to them.
                 The Kauravas embodied cruelty, injustice, vice, oppression, and
                 irreligion. On the other hand, the Pandavas were saintly and
                 virtuous—the epitomes of morality, sacrifice, devotion, and
@@ -306,7 +306,7 @@ const Intro = () => {
                 one hand, he was facing persons who deserved his respect and
                 veneration such as his grandfather, Bheeshma, his teacher,
                 Dronacharya, etc. On the other hand, his duty as a warrior was
-                to fight the war of righteousness. Yet, no fruits of victory
+                to fight the war of upeousness. Yet, no fruits of victory
                 seemed to justify such a heinous act. It seemed like a dilemma
                 without solution. Bewildered, demoralized, disappointed with
                 life, and dejected with the events, Arjun surrendered to the

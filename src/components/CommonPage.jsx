@@ -24,7 +24,7 @@ const Common = (props) => {
 
                     <Parallax speed={5}>
                       <NavLink
-                        data-aos="fade-right"
+                        data-aos="fade-up"
                         className="button"
                         to="/index"
                       >
@@ -34,7 +34,7 @@ const Common = (props) => {
 
                     <Parallax speed={3}>
                       <NavLink
-                        data-aos="fade-left"
+                        data-aos="fade-up"
                         className="button"
                         to="/intro"
                       >
@@ -44,7 +44,7 @@ const Common = (props) => {
 
                     <Parallax speed={1}>
                       <NavLink
-                        data-aos="fade-right"
+                        data-aos="fade-up"
                         className="button"
                         to="/about"
                       >
