@@ -37,7 +37,7 @@ const AxiosGitaApi = () => {
         <div className="card text-center">
           <Parallax speed={1}>
             <div className="card-header">
-              <div class="card">
+              <div className="card">
                 <div className="searchBox row">
                   <div data-aos="fade-up" className="col-sm">
                     <input
@@ -71,7 +71,7 @@ const AxiosGitaApi = () => {
           <div className="card-body imagebox">
             <h5 data-aos="fade-up" className="card-title">"जय श्री कृष्णा"</h5>
             <p className="card-text">
-              <img src={pic} class="img-fluid" alt="shlok" />
+              <img src={pic} className="img-fluid" alt="shlok" />
             </p>
           </div>
         </div>
