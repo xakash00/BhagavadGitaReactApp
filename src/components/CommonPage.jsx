@@ -17,7 +17,7 @@ const Common = (props) => {
             <div id="content" className="col-10 mx-auto">
               <div className="row">
                 <div className="col-md-6 pt-5 order-2  d-flex justify-content-center flex-column">
-                  <div className="typewriter container-lg">
+                  <div className="typewriter mx-auto">
                     <Parallax speed={7}>
                       <h1>THE SONG BY GOD</h1>
                     </Parallax>

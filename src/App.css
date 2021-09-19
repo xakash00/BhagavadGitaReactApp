@@ -45,27 +45,35 @@ html {
 }
 
 .show{
-  background-color: rgba(255, 255, 255, 0.692);
+  background-color: rgba(34, 137, 221, 0.589);
+  border-radius: 10px;
 }
 
-.colorChange .navbar-brand {
+
+.colorChange .navbar-brand{
   color: #fff;
 }
+
 
 .nav-link {
   text-decoration: none;
   color: #000;
 }
 
+.colorChange .nav-link{
+  color:#fff;
+  text-shadow: 2px 2px 4px #000;
+}
+
 
 .nav-item {
   padding: 1rem;
   width: auto;
-  font-size: 1.25rem;
   text-decoration: none;
 }
 .nav-item :hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #ff6374;
+  text-shadow: 2px 2px 4px #fff;
 }
 
 .navbar-toggler {
@@ -82,7 +90,7 @@ html {
 }
 
 .typewriter h1{
-  width: 130%;
+  width: 110%;
   padding-top: 2%;
   color: rgb(236, 14, 136);
   font-weight: bolder;
@@ -140,6 +148,11 @@ html {
 
 /* card */
 
+.card{
+  background-color: #ffffffa4;
+  border: none;
+}
+
 #card {
   background-color: #ffffff1c;
   transition: transform 0.2s;
@@ -148,7 +161,6 @@ html {
   transform: scale(1.1);
 }
 #cardheading {
-  width: 42%;
   color: rgb(231, 20, 20);
   margin-left: 28%;
   text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc,
@@ -228,7 +240,7 @@ html {
 #introh1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgba(24, 162, 226, 0.616);
+  color: #ff6374;
   border: 1px solid white;
   border-radius: 13px;
   width: 45%;

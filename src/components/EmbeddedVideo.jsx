@@ -13,7 +13,7 @@ const EmbeddedVideo = () => {
             <div data-aos="fade-up" className="col-10 col-sm-8 col-lg-6 ">
               <iframe
               title="isckon video"
-                className="embed-responsive-item"
+                className="embed-responsive-item container"
                 src="https://www.youtube.com/embed/z2_39vsQ6VE"
               ></iframe>
             </div>
