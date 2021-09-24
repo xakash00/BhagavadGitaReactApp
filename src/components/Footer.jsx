@@ -38,7 +38,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <NavLink to="/index" className="footer_links">
-                          Index
+                          Start Reading
                         </NavLink>
                       </li>
                       <li>
