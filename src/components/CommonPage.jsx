@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import krishna from "../images/animate.png";
+import krishna from "../images/homeImg.png";
 import Aos from "aos";
 import Parallax from "react-rellax";
 import "aos/dist/aos.css";
