@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 import Aos from "aos";
 import Parallax from "react-rellax";
@@ -8,6 +8,8 @@ const AxiosGitaApi = () => {
     Aos.init({ duration: 1000 });
   }, []);
 
+  const Gita = useRef(() => {});
+
   const [pic, setPic] = useState("");
   const [chapter, setChapter] = useState("");
   const [shlok, setShlok] = useState("");
@@ -15,7 +17,7 @@ const AxiosGitaApi = () => {
   const [shlokFromButtonClick, setShlokFromButtonClick] = useState(1);
 
   let { REACT_APP_API_KEY, REACT_APP_URL } = process.env;
-  const Gita = async () => {
+  Gita.current = async () => {
     const resposne = await axios.get(
       `${REACT_APP_URL}?ch=${chapterFromButtonClick}&sl=${shlokFromButtonClick}&api_key=${REACT_APP_API_KEY}`
     );
@@ -28,9 +30,9 @@ const AxiosGitaApi = () => {
   };
 
   useEffect(() => {
-    /* eslint-disable*/
-    Gita();
+    Gita.current();
   }, [shlokFromButtonClick]);
+
   return (
     <>
       <div className="indexPage">
@@ -69,7 +71,9 @@ const AxiosGitaApi = () => {
             </div>
           </Parallax>
           <div className="card-body imagebox">
-            <h5 data-aos="fade-up" className="card-title">"जय श्री कृष्णा"</h5>
+            <h5 data-aos="fade-up" className="card-title">
+              "जय श्री कृष्णा"
+            </h5>
             <p className="card-text">
               <img src={pic} className="img-fluid" alt="shlok" />
             </p>

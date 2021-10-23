@@ -44,27 +44,24 @@ html {
   background-color: #28d;
 }
 
-.show{
+.show {
   background-color: rgba(34, 137, 221, 0.589);
   border-radius: 10px;
 }
 
-
-.colorChange .navbar-brand{
+.colorChange .navbar-brand {
   color: #fff;
 }
-
 
 .nav-link {
   text-decoration: none;
   color: #000;
 }
 
-.colorChange .nav-link{
-  color:#fff;
+.colorChange .nav-link {
+  color: #fff;
   text-shadow: 2px 2px 4px #000;
 }
-
 
 .nav-item {
   padding: 1rem;
@@ -89,7 +86,7 @@ html {
   margin-top: 3rem; /*image*/
 }
 
-.typewriter h1{
+.typewriter h1 {
   width: 110%;
   padding-top: 2%;
   color: rgb(236, 14, 136);
@@ -148,7 +145,7 @@ html {
 
 /* card */
 
-.card{
+.card {
   background-color: #ffffffa4;
   border: none;
 }
@@ -254,6 +251,9 @@ html {
 }
 
 /* Carousel */
+.carousel_container {
+  width: 100%;
+}
 .carousel {
   width: 70%;
   left: 0%;

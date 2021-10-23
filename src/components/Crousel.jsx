@@ -10,7 +10,7 @@ const Crousel = () => {
   }, []);
   return (
     <>
-      <div>
+      <div className="carousel_container">
         <div
           id="carouselExampleControls"
           className="carousel slide mx-auto"
